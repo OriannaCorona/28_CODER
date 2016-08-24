@@ -1,0 +1,150 @@
+/*header*/
+.fondo1{
+	background-image: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 20%;
+}
+.jumbotron{
+	color: white;
+	background-color: transparent;
+	margin: 25% 0%;
+}
+hr{
+	width: 3%;
+	border: solid 2px pink;
+}
+#portafolio{
+	font-size: 150%;
+	color: white;
+	margin-top: 2%;
+}
+nav.navbar{
+	background-color: transparent;
+	border: transparent;
+	position: fixed;
+	z-index: 100;
+}
+
+li a, div a{
+	color: pink !important;
+}
+.conoce{
+	border-radius: 25px 25px;
+	background-color: #fa8258;
+	border: none;
+	padding: 1% 2%;
+}
+/*body section 1*/ 
+.fondo2{
+	background-color: #fa8258;
+}
+.sobre{
+	color: white;
+	margin-top: 5%;
+}
+.secuno{
+	color: white;
+	margin-bottom: 5%;
+}
+.git{
+	color: white;
+	margin-top: 2%;
+}
+#rblanca{
+	border: solid 2px white;
+}
+.butgit{
+	border-radius: 25px 25px;
+	background-color: white;
+	border: none;
+	padding: 0.5% 2%;
+	color: #fa8258;
+	margin-bottom: 5%;
+	margin-top: 2%
+}
+.git2{
+	color: #fa8258;
+}
+/*section 2*/
+.icon{
+	color: pink;
+	font-size: 200%;
+}
+.servicios, .contactame{
+	margin-top: 5%;
+	color: lightgray;
+}
+.infoser{
+	margin-bottom: 5%;
+}
+.gris{
+	color: lightgray;
+}
+/*section 3*/ 
+.img1{
+	background-image: url("../img/1.jpg");
+}
+.img2{
+	background-image: url("../img/2.jpg");
+}
+.img3{
+	background-image: url("../img/3.jpg");
+}
+.img4{
+	background-image: url("../img/4.jpg");
+}
+.img5{
+	background-image: url("../img/5.jpg");
+}
+.img6{
+	background-image: url("../img/6.jpg");
+}
+.fon{
+	width: 33.3%;
+	height: 300px; 
+}
+.fondonarimg{
+	background-color: rgba(250,130,88,0.5);
+	width: 110%;
+	height: 300px;
+	margin: 0% 0% 0% -3.3%;
+	opacity: 0;
+	position: absolute;
+	overflow: hidden;/*esto para que cuando se este fuera del elemento no se aplique la condicion*/
+}
+div .img1:hover div.fondonarimg, 
+div .img2:hover div.fondonarimg, 
+div .img3:hover div.fondonarimg, 
+div .img4:hover div.fondonarimg, 
+div .img5:hover div.fondonarimg, 
+div .img6:hover div.fondonarimg{
+	opacity: 1;
+}
+/* ^^^busca una manera de optimizar este codigo y no repetirlo*/
+.text, .text2{
+	color: white;
+	position: absolute;
+	margin: 25% 0% 0% 35%;
+	font-size: 120%;
+}
+.text2{
+	margin: 25% 0% 0% 24%;
+}
+.fonegro{
+	background-color: black;
+}
+/*footer*/
+.mail{
+	color: #fa8258;
+	text-decoration: none; 
+}
+footer{
+	margin-bottom: 5%;
+}
+/*responsive*/
+@media screen and (max-width: 600px){
+	.fon{
+		width: 100%;
+	}
+} 
